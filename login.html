@@ -26,7 +26,11 @@
     </div>
     <script>
         function check() {
-            
+            if(Login_form.id.value == "" || Login_form.passwd.value == "") {
+
+            } else if(Login_form.id.value == "kisa" || Login_form.passwd.value == "kisa123") {
+                alert("Login Success!");
+            }
         }
     </script>
 </body>
