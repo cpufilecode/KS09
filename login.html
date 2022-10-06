@@ -30,7 +30,8 @@
                 alert("아아디 및 비밀번호가 유효하지 않습니다.");
                 Login_form.id.value="";
                 Login_form.passwd.value="";
-            } else if(Login_form.id.value == "kisa" || Login_form.passwd.value == "kisa123") {
+            } 
+            else if(Login_form.id.value == "kisa" && Login_form.passwd.value == "kisa123") {
                 alert("Login Success!");
                 window.location.href="/login_success.html"
             }
