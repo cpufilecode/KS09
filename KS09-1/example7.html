@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Exam</title>
+</head>
+<body>
+    <script>
+        var student = {
+            name: "홍길동",
+            birthday: "011123",
+            full: function() {
+                return this.name + this.birthday;
+            }
+        };
+        document.write("학생의 이름 : " + student.name + "<br>");
+        document.write("학생의 생년월일 : " + student.birthday + "<br>");
+        document.write("학생의 이름 + 생년월일 : " + student.full());
+    </script>
+</body>
+</html>
